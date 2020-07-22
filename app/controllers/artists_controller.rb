@@ -1,4 +1,5 @@
 class ArtistsController < ApplicationController
+<<<<<<< HEAD
 
   def new
     @artist = Artist.new
@@ -25,4 +26,6 @@ class ArtistsController < ApplicationController
     params.require(:artist).permit(*args)
   end
 
+=======
+>>>>>>> 682f38486bc3ab24abd91c5ea6102f645039fb53
 end
